@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG Patinhas do amanhã</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css"
+  rel="stylesheet"
+/>
+    
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="favicon.png" alt="ONG patinhas do amanhã"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+          <div class="d-flex justify-content-start">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Adotar
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="adotar.html">Cachorro</a>
+                    <a class="dropdown-item" href="adotar.html">Gatos</a>
+                    <a class="dropdown-item" href="adotar.html">Outros</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="login.html">Doação</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="register.html">Contatos</a>
+                  </li>
+              </ul>
+            </div>
+
+            <div class="d-flex justify-content-end">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="register.html">Register</a>
+                </li>
+              </ul>  
+            </div>
+
+      </nav>
+</header>
+
+    <main>
+        <div class="mt-3 d-flex justify-content-center align-items-center" style="width: 500px;">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Endereço de Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Inserir email">
+                  <small id="emailHelp" class="form-text text-muted">Nunca iremos mandar nenhum email pedindo senha</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Inserir número para contato</label>
+                  <input class="form-control" type="text" placeholder="Telefone">
+              </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Definir senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Insira a senha novamente</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha novamente">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+    </main>
+
+    <footer class="text-center text-lg-start futer" id="bottom" 
+    style="
+    background-color: rgb(24, 24, 24);
+    position: fixed;
+    height: 50px;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    ">
+        <div class="text-center p-3 text-white" style="background-color: rgb(5, 5, 5);">
+          ©Imagens pegas no site da Ampara:
+          <a class="text-white" href="https://amparanimal.org.br/">Site da ampara</a>
+        </div>
+      </footer>
+</body>
+</html>

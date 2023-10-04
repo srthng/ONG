@@ -1,0 +1,56 @@
+html{
+    font-family: sans-serif;
+    
+}
+
+header img{
+    width: 90px;
+    height: 90px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+header a{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+header{
+    font-size: 18px;
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    max-height: 70px !important;
+ }
+
+ main img{
+    width: 100%;
+    height: 100vh;
+ }
+
+ .uhum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+.uhum h1{
+    margin-right: 70px;
+}
+
+.adocaobox{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.adocaobox img{
+    width: 190px !important;
+    height: 190px !important;
+
+}
