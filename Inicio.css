@@ -1,0 +1,205 @@
+
+html{
+    width: 100%;
+    height: 4575px;
+}
+
+main{
+
+    min-width: 320px;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+header{
+    background-color: #1f1f1f;
+ display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+
+}
+body{
+    margin: 0;
+
+}
+.Irene{
+
+    width: 50px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px;
+
+}
+
+.Foolish{
+
+
+    background-color: rgb(228, 145, 100);
+    width: 100%;
+    height: 10px;
+}
+
+.Seulgi{
+width: 700px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+color: aliceblue;
+margin-right: 50px;
+font-family: 'Kanit', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-size: 20px;
+margin-bottom:10px;
+}
+
+button{
+      background: none;
+    color: #eae3e3;
+    margin-bottom:20px;
+    border: none;
+    
+}
+
+button:hover{
+    color: rgb(207, 157, 50);
+}
+
+.Wendy{
+width: 100%;
+height: 900px;
+}
+
+
+.Joy{
+
+     width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
+    
+ 
+}
+
+.Leon{
+  
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.Naeyon{
+
+    padding: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 200px;
+ }
+
+.Mike{
+    margin: 50px;
+    font-size: larger;
+    color: beige;
+    background-color: #1f1f1f;
+    width: 250px;
+    height: 70px;
+    border-radius: 25px;
+ }
+
+.Tina{
+    margin: 50px;
+}
+
+.Yeri{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: rgb(173, 197, 217);
+}
+
+.Ada{
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+
+}
+
+.Jeongyeon{
+    width: 100%;
+ 
+    height: 600px;
+    background-color: aquamarine;
+
+}
+
+.Bagi{
+    width: 100%;
+
+    height: 600px;
+background-color: bisque;
+}
+
+.Quackty{
+
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border: none;
+
+}
+
+.Kun{
+
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    margin-left: 100px;
+    margin-top: 100px; 
+
+}
+
+.Yuta{
+    
+    height: 200px;
+
+}
+
+.Johnny{
+
+    margin: 50px;
+
+}
+
+.Mina{
+
+    height: 500px;
+background-color: azure;
+
+}
+
+.Diluc{
+
+    height: 500px;
+    background-color: blueviolet;
+
+}
+
+
+footer{
+
+    width: 100%;
+    height: 200px;
+    background-color: #1f1f1f;
+}
