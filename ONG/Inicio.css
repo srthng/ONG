@@ -15,7 +15,7 @@ h1{
      font-family: 'Source Code Pro', monospace;
 }
 header{
-    background-color: #1f1f1f;
+    background-color: #232323;
  display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -23,11 +23,12 @@ align-items: center;
 width: 100%;
 min-width: 200px;
 max-width: 2980px;
+min-height: 70px;
 }
 
 p{
     width: 100%;
-    font-size: 2vb;
+    font-size: 1.5vmax;
     font-family: 'Kanit', sans-serif;
      font-family: 'Source Code Pro', monospace;
 }
@@ -67,7 +68,7 @@ min-width: 280px;
 
 .Foolish{
 
-    background-color: rgb(228, 145, 100);
+    background-color: #fe7f2d;
     height: 10px;
 }
 
@@ -117,11 +118,13 @@ button:hover{
     
     font-size: larger;
     color: beige;
-    background-color: #1f1f1f;
+    background-color: #fe7f2d;
     border-radius: 25px;
     width: 18vb;
     height: 6vb;
     margin-bottom: 6%;
+    font-family: 'Kanit', sans-serif;
+     font-family: 'Source Code Pro', monospace;
  }
 
 .Tina{
@@ -146,7 +149,7 @@ button:hover{
     max-width: 90%;
     min-height: 300px;
     max-height: 600px;
-    background-color: blueviolet;
+    background-image: url(https://etobicokehumanesociety.com/wp-content/uploads/2023/03/spring-time-change-for-pet.jpg);
     justify-content: space-around;
 
 }
@@ -158,10 +161,12 @@ button:hover{
     max-width: 90%;
     min-height: 300px;
     max-height: 600px;
-    background-color: aquamarine;
+    background-image: url(veterinary-85925_1280.jpg);
     justify-content: space-around;
-
+    
 }
+
+
 
 .Quackty{
     display: flex;
@@ -205,6 +210,7 @@ button:hover{
 }
 
 
+
 .Gou{
 max-width: 200px;
     max-height: 70px;
@@ -238,7 +244,7 @@ max-width: 200px;
 
 display: flex;
 flex-direction: column;
-background-color: beige;
+background-color: #233d4d;
 min-height: 620px;
 min-width: 320px;
 
@@ -257,11 +263,13 @@ min-width: 320px;
 
     display: flex;
     border: none;
-    background-color: cadetblue;
+    background-color: #f0a963;
     padding: 2%;
     border-radius: 25px;
     font-size: 2vb;
     min-width: 70px;
+    font-family: 'Kanit', sans-serif;
+     font-family: 'Source Code Pro', monospace;
     
 }
 
@@ -437,6 +445,17 @@ min-width: 320px;
       }
       
       
+.Doação{
+    display: flex;
+    border: none;
+    background-color: rgb(214, 89, 22);
+    padding: 2%;
+    border-radius: 25px;
+    font-size: 2vb;
+    min-width: 70px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
     
 
 footer{
@@ -457,6 +476,7 @@ footer{
 @media screen and (min-width:768px) and (max-width:1023px) {
 
     img{
+        
         margin: auto;
     }
     
