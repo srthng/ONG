@@ -1,0 +1,538 @@
+html{
+     font-size: 70%;
+     font-family: 'Kanit', sans-serif;
+     font-family: 'Source Code Pro', monospace;
+     min-height: 300px;
+     max-height: 1920px;
+     height: 100%;
+}
+
+
+h1{
+    font-size: 60%;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+     font-family: 'Source Code Pro', monospace;
+}
+header{
+    background-color:  #1F0D04;
+ display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+min-width: 200px;
+max-width: 2980px;
+min-height: 70px;
+}
+
+p{
+    width: 100%;
+    font-size: 1.5vmax;
+    font-family: 'Kanit', sans-serif;
+     font-family: 'Source Code Pro', monospace;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+
+}
+.Irene{
+
+    display: block;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+width: 80%;
+max-width: 150px;
+
+}
+
+.Seulgi{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+color: rgb(29, 29, 30);
+font-family: 'Kanit', sans-serif;
+font-family: 'Source Code Pro', monospace;
+width: 80%;
+max-width: 1280px;
+margin: 3%;
+margin-bottom: 1%;
+font-size: 1.2vmax;
+min-width: 280px;
+}
+
+.Foolish{
+
+    background-color: #fe7f2d;
+    height: 10px;
+}
+
+button{
+    max-width: 300px;
+    min-height: 20px;
+    background: none;
+    color: #F0905D;
+    margin-bottom:20px;
+    border: none;
+ 
+}
+
+button:hover{
+    color: #eae3e3;
+}
+
+
+
+.Joy{
+
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    
+    
+}
+
+.Leon{
+    min-width: 100px;
+    max-width: 1920px;
+    margin: 2%;
+    
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+
+.Mike{
+    
+    font-size: larger;
+    color: beige;
+    background-color: #fe7f2d;
+    border-radius: 25px;
+    width: 18vb;
+    height: 6vb;
+    margin-bottom: 6%;
+    font-family: 'Kanit', sans-serif;
+     font-family: 'Source Code Pro', monospace;
+ }
+
+.Tina{
+    margin: 50px;
+}
+
+.Yeri{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    
+}
+
+.Ada{
+
+    display: flex;
+    align-items: center;
+    min-width: 50%;
+    max-width: 90%;
+    min-height: 300px;
+    max-height: 600px;
+    background-image: url(https://etobicokehumanesociety.com/wp-content/uploads/2023/03/spring-time-change-for-pet.jpg);
+    justify-content: space-around;
+
+}
+
+.Jeongyeon{
+    display: flex;
+    align-items: center;
+    min-width: 50%;
+    max-width: 90%;
+    min-height: 300px;
+    max-height: 600px;
+    background-image: url(images/Cachorro.jpg);
+    justify-content: space-around;
+    
+}
+
+
+
+.Quackty{
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 1%;
+    margin-top: 10%; 
+
+
+}
+
+.Johnny{
+
+    margin: 50px;
+
+}
+
+.Mina{
+    display:flex;
+    justify-content:center;
+    height: 700px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.Diluc{
+
+    height: 500px;
+    background-color: rgb(173, 197, 217);
+
+}
+
+.Roier{
+    background-color: #eae3e3;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+
+
+.Gou{
+max-width: 200px;
+    max-height: 70px;
+    min-height:10px;
+    margin-top: 50px;
+    background-color: orange;
+    font-size: 20px;
+    border: #1f1f1f;
+    border-radius: 70px;
+    color: #ffffff;
+}
+ 
+
+.login{
+    background-image: image-set(url);
+}
+
+.Lisa{
+    background: #401D09;
+    color: #ff8254;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Jennie{
+
+    margin: 50px;
+
+}
+
+.Jaiden{
+
+display: flex;
+flex-direction: column;
+background-color: #233d4d;
+min-height: 620px;
+min-width: 320px;
+
+}
+
+.Taeil{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+
+}
+
+.Animal{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    border: none;
+    background-color: #f0a963;
+    padding: 2%;
+    border-radius: 15px;
+    font-size: 2vb;
+    width: 500px;
+    height: 70px;
+    font-family: 'Source Code Pro', monospace;
+    font-size:16px;
+    
+}
+
+
+.Rose{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Momo{
+    margin-top: 4%;
+        margin-left: 5%;
+        
+    }
+    
+    textarea{
+    
+        width: 80%;
+        margin-left: 50px;
+    
+    }
+    
+    .Rin{
+    
+        margin-top: 50px;
+        min-width: 100px;
+    }
+
+   
+.Fit{
+
+    background-color: #eae3e3;
+    display: flex;
+    flex-direction: column;
+
+    max-height: 2000px;
+}
+
+    
+      .form {
+      
+        fieldset {
+          border: none;
+          padding: 0;
+          padding: 10px 0;
+          position: relative;
+          clear: both;
+      
+          &.fieldset-expiration {
+            float: left;
+            width: 60%;
+      
+            & .select {
+              width: 84px;
+              margin-right: 12px;
+              float: left;
+            }
+          }
+      
+          &.fieldset-ccv {
+            clear: none;
+            float: right;
+            width: 86px;
+          }
+      
+          label {
+            display: block;
+            text-transform: uppercase;
+            font-size: 11px;
+            color: hsla(0, 0, 0, .6);
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-family: Inconsolata;
+          }
+      
+          input,
+          .select {
+            width: 100%;
+            height: 38px;
+            color: hsl(0, 0, 20);
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 15px;
+            outline: none!important;
+            border: 1px solid hsla(0, 0, 0, 0.3);
+            box-shadow: inset 0 1px 4px hsla(0, 0, 0, 0.2);
+      
+            &.input-cart-number {
+              width: 82px;
+              display: inline-block;
+              margin-right: 8px;
+      
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+      
+          .select {
+            position: relative;
+      
+            &::after {
+              content: '';
+              border-top: 8px solid #222;
+              border-left: 4px solid transparent;
+              border-right: 4px solid transparent;
+              position: absolute;
+              z-index: 2;
+              top: 14px;
+              right: 10px;
+              pointer-events: none;
+            }
+      
+            select {
+              appearance: none;
+              position: absolute;
+              padding: 0;
+              border: none;
+              width: 100%;
+              outline: none!important;
+              top: 6px;
+              left: 6px;
+              background: none;
+      
+              :-moz-focusring {
+                color: transparent;
+                text-shadow: 0 0 0 #000;
+              }
+      
+            }
+          }
+      
+      
+        }
+      
+        button {
+          width: 100%;
+          outline: none!important;
+          background: linear-gradient(180deg, #4f5656, #3d8291);
+          text-transform: uppercase;
+          font-weight: bold;
+          border: none;
+          box-shadow: none;
+          text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+          margin-top: 90px;
+      
+          & .fa {
+            margin-right: 6px;
+          }
+        }
+      
+      }
+      
+      /*--------------------
+      Checkout
+      --------------------*/
+      .checkout {
+        margin: 60px auto 30px;
+        position: relative;
+        min-width: 280px;
+        max-width: 1000px;
+        background: white;
+        border-radius: 15px;
+        padding: 30px 25px 15px;
+        box-shadow: 0 10px 40px hsla(0, 0, 0, .1);
+        height: 60%;
+        font-family: 'Kanit', sans-serif;
+     font-family: 'Source Code Pro', monospace;
+     font-size: 1.5vb;
+      }
+      
+      
+.Doação{
+    display: flex;
+    border: none;
+    background-color: rgb(214, 89, 22);
+    padding: 2%;
+    border-radius: 25px;
+    font-size: 2vb;
+    min-width: 70px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+    
+
+footer{
+
+    width: 100%;
+    min-height: 60px;
+    background-color: #181818;
+}
+
+@media screen and (min-width:1024px) {
+
+    img{
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    img{
+        
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+    img{
+        margin: auto;
+    }
+    
+}
+
+.Patreon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+
+.PatreonItems{
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.PatreonColor{
+    color: #F29057;
+}
+
+.spaceUse{
+    margin: 20px 15px;
+}
+
+.Display{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.DisplayItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin-left: 20px;
+    margin-right: 20px;
+}
